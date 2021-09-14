@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infocity.InfoCity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.infocity.LoginActivity"></activity>
+        <activity android:name="com.infocity.RegisterActivity" />
+        <activity android:name="com.infocity.TechnologyActivity" />
+        <activity android:name="com.infocity.SportsActivity" />
+        <activity android:name="com.infocity.ScienceActivity" />
+        <activity android:name="com.infocity.HealthActivity" />
+        <activity android:name="com.infocity.EntertainmentActivity" />
+        <activity android:name="com.infocity.BusinessActivity" />
+        <activity android:name="com.infocity.SearchActivity" />
+        <activity android:name="com.infocity.WorldActivity" />
+        <activity android:name="com.infocity.Detailed" />
+        <activity android:name="com.infocity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.infocity.StarterActivity" />
+        <activity android:name="com.infocity.HomeActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

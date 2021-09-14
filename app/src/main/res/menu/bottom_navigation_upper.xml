@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_country"
+        android:icon="@drawable/ic_remove_black_24dp"
+        android:title="Страны" />
+
+    <item
+        android:id="@+id/nav_world"
+        android:icon="@drawable/ic_remove_black_24dp"
+        android:title="Мировые"/>
+
+</menu>
